@@ -1,0 +1,571 @@
+.barra{
+  background-color: #00ccbf;
+  width: 1871px;
+  margin-left: 8px;
+}
+
+.titulo {
+  margin-left: 5px;
+  font-size: 45px;
+  font-family: fantasy;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.Titulo-css{
+  margin-top: -50px;
+  margin-left: -150px;
+  font-size: 80px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.Boxes-css{
+  margin-top: -50px;
+  margin-left: 30px;
+  font-family: fantasy;
+  font-size: 80px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.Descripcion-css{
+  margin-left: -490px;
+  margin-top: 150px;
+  color: #ffffff;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #000000;
+  font-style: italic;
+}
+
+.Descripcion2-css{
+  margin-left: -650px;
+  margin-top: 220px;
+  color: #ffffff;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #000000;
+  font-style: italic;
+}
+
+.botonSesion{
+  background-color: #72f2eb;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+  margin-right: 8px;
+  margin-left: 850px;
+  margin-top: 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.botonRegistrar{
+  background-color: #72f2eb;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+  margin-right: 8px;
+  margin-left: 10px;
+  margin-top: 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.ds {
+  font-size: 45px;
+  font-family: fantasy;
+  text-shadow: 2px 2px 4px #000000;
+  margin-right: 50px;
+}
+
+/*.spacer {
+  flex: 1 1 auto;
+}*/
+
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  height: auto;
+  width: auto;
+  margin-top: auto;
+  background: #00d2ff;
+  background: #77A1D3;
+  background: -webkit-linear-gradient(to right, #ff5f5d, #79CBCA, #77A1D3);
+  background: linear-gradient(to right, #ff5f5d, #79CBCA, #77A1D3);
+}
+
+.inicio-css {
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  font-family: Verdana;
+  background-color: #ff5f5d;
+  margin-right: 10px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.caracteristicas-css {
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  font-family: Verdana;
+  background-color: #ff5f5d;
+  margin-right: 10px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.testimonios-css {
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  font-family: Verdana;
+  background-color: #ff5f5d;
+  margin-right: 10px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.contactanos-css {
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  font-family: Verdana;
+  background-color: #ff5f5d;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.embutidos {
+  padding: 1%;
+  margin: 1%;
+  width: 350px;
+  height: 250px;
+}
+
+.descripcion-embutidos-css{
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: justify;
+}
+
+.descripcion-lacteos-css{
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: justify;
+}
+
+.descripcion-legumbres-css{
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: justify;
+}
+
+.descripcion-postres-css{
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: justify;
+}
+
+.descripcion-verduras-css{
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: justify;
+}
+
+.descripcion-frutas-css{
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: justify;
+}
+
+.example-card-embutidos {
+  max-width: 400px;
+  margin-top: 50px;
+  margin-left: 150px;
+  content: flex;
+  align-items: center;
+  align-content: justify;
+}
+
+.example-card-lacteos {
+  max-width: 400px;
+  margin-top: -467px;
+  margin-left: 735px;
+  content: flex;
+  align-items: center;
+  align-content: justify;
+}
+
+.example-card-legumbres {
+  max-width: 400px;
+  margin-top: -508px;
+  margin-left: 1320px;
+  content: flex;
+  align-items: center;
+  align-content: justify;
+}
+
+.example-card-postres {
+  max-width: 400px;
+  margin-top: 100px;
+  margin-left: 150px;
+  content: flex;
+  align-items: center;
+  align-content: justify;
+}
+
+.example-card-verduras {
+  max-width: 400px;
+  margin-top: -508px;
+  margin-left: 735px;
+  content: flex;
+  align-items: center;
+  align-content: justify;
+}
+
+.example-card-frutas {
+  max-width: 400px;
+  margin-top: -523px;
+  margin-left: 1320px;
+  content: flex;
+  align-items: center;
+  align-content: justify;
+}
+
+.example-header-image-embutidos {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/5223/5223053.png');
+  background-size: cover;
+}
+
+.example-header-image-lacteos {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/3050/3050158.png');
+  background-size: cover;
+}
+
+.example-header-image-legumbres {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/2771/2771154.png');
+  background-size: cover;
+}
+
+.example-header-image-postres {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/3081/3081949.png');
+  background-size: cover;
+}
+
+.example-header-image-verduras {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/3082/3082061.png');
+  background-size: cover;
+}
+
+.example-header-image-frutas {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/7869/7869781.png');
+  background-size: cover;
+}
+
+.verduras{
+  padding: 1%;
+  margin: 1%;
+  width: 350px;
+  height: 250px;
+}
+
+.postres{
+  padding: 1%;
+  margin: 1%;
+  width: 350px;
+  height: 250px;
+}
+
+.legumbres {
+  padding: 1%;
+  margin: 1%;
+  width: 350px;
+  height: 250px;
+}
+
+.lacteos {
+  padding: 1%;
+  margin: 1%;
+  width: 10px;
+  height: 10px;
+}
+
+.frutas {
+  padding: 1%;
+  margin: 1%;
+  width: 350px;
+  height: 250px;
+}
+
+.Titulo-css{
+  font-family: Fantasy;
+}
+
+.SP_Colum01 {
+  padding: 5%;
+  width: 50%;
+}
+.SP_Colum02 {
+  padding: 5%;
+  width: 50%;
+}
+
+.demo-table {
+  width: 100%;
+}
+
+.mat-mdc-row .mat-mdc-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  border-color: currentColor;
+}
+
+.demo-row-is-clicked {
+  font-weight: bold;
+}
+
+
+.btn-primary{
+  background-color: #72f2eb;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+  margin-right: 8px;
+  margin-left: 870px;
+  margin-top: -100px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: gray;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.form-group{
+  margin-left: 800px;
+}
+
+
+.titulo-lista{
+  margin-left: 700px;
+  font-family: fantasy;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 30px;
+}
+
+.btn-primary{
+  background-color: #72f2eb;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+  margin-right: 8px;
+  margin-left: 870px;
+  margin-top: 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: rgb(28, 26, 26);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.btn-danger{
+  background-color: #cc0e0e;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+  margin-right: 8px;
+  margin-left: 870px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: gray;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.columna-id{
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  border-style: dotted;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  width: 200px;
+  border: solid black;
+  border-top-color: black;
+  border-left-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.columna-nombre{
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  border-style: dotted;
+  font-size: 16px;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  width: 580px;
+  border: solid black;
+  border-top-color: black;
+  border-left-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.columna-descripcion{
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  border-style: dotted;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  width: 530px;
+  border: solid black;
+  border-top-color: black;
+  border-left-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.columna-supermercado{
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  border-style: dotted;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  width: 480px;
+  border: solid black;
+  border-top-color: black;
+  border-left-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.columna-precio{
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  border-style: dotted;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  width: 300px;
+  border: solid black;
+  border-top-color: black;
+  border-left-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.columna-stock{
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  border-style: dotted;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  width: 300px;
+  border: solid black;
+  border-top-color: black;
+  border-left-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.columna-fechavencimiento{
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  border-style: dotted;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  width: 800px;
+  border: solid black;
+  border-top-color: black;
+  border-left-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.columna-estrellas{
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  border-style: dotted;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  width: 250px;
+  border: solid black;
+  border-top-color: black;
+  border-left-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.contenedor{
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  width: 250px;
+}
+
+.mat-tab-group {
+  margin-bottom: 48px;
+  margin-top: auto;
+}

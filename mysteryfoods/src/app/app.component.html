@@ -1,0 +1,123 @@
+<mat-toolbar class="barra" color="warn">
+  <img src="../../assets/logo.png" id="logo" width="60" height="60">
+  <span class="titulo">Mystery F</span>
+  <img src="../../assets/ojos.png" id="ojos" width="50" height="45">
+  <span class="ds">ds</span>
+  <span class="spacer"></span>
+  <button mat-button class="botonInicio" routerLink="/home">Inicio</button>
+  <button mat-button class="botonLista" routerLink="/list">Lista</button>
+  <button mat-button class="botonSesion" routerLink="/login">Iniciar Sesión</button>
+  <button mat-button class="botonRegistrar" routerLink="/sign-in">Registrar</button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
+
+
+  <!-- <h1 class="titulo-lista">Lista de Mystery Boxes</h1>
+
+        <table>
+          <thead>
+            <tr>
+              <th class="columna-id">ID</th>
+              <th class="columna-nombre">Nombre</th>
+              <th class="columna-descripcion">Descripcion</th>
+              <th class="columna-supermercado">Supermercado</th>
+              <th class="columna-precio">Precio</th>
+              <th class="columna-stock">Stock</th>
+              <th class="columna-fechavencimiento">Fecha de Vencimiento</th>
+              <th class="columna-estrellas">Estrellas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let box of boxArreglo"
+              (click)="editarAlAbrir(box)"
+              [class.active]="box == boxSeleccionado">
+              <th class="contenedor">{{ box.id }}</th>
+              <th class="contenedor">{{ box.nombre }}</th>
+              <th class="contenedor">{{ box.descripcion }}</th>
+              <th class="contenedor">{{ box.supermercado }}</th>
+              <th class="contenedor">{{ box.precio }}</th>
+              <th class="contenedor">{{ box.stock }}</th>
+              <th class="contenedor">{{ box.fecha }}</th>
+              <th class="contenedor">{{ box.estrellas }}</th>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- <table mat-table [dataSource]="boxArreglo" >
+          <ng-containerngFor="let columna of displayedColumns" [matColumnDef]="columna">
+            <th mat-header-cell matHeaderCellDef> {{columna}} </th>
+            <td mat-cellmatCellDef="let element"> {{element[columna]}} </td>
+
+          </ng-container>
+           Definición de las columnas
+          <tr mat-header-row matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-rowmatRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+
+        <div class="card mt-4">
+          <div class="card-body">
+          </div>
+          <br>
+          <div class="form-group">
+            <mat-form-field>
+              <mat-label>Nombre</mat-label>
+              <input matInput type="text" [(ngModel)]= "boxSeleccionado.nombre" placeholder="Ingrese nombre">
+            </mat-form-field>
+          </div>
+
+            <div class="form-group">
+              <mat-form-field>
+                <mat-label>Descripcion</mat-label>
+                <input matInput type="text" [(ngModel)]= "boxSeleccionado.descripcion" placeholder="Ingrese descripcion">
+              </mat-form-field>
+            </div>
+
+            <div class="form-group">
+              <mat-form-field>
+                <mat-label>Supermercado</mat-label>
+                <input matInput type="text" [(ngModel)]= "boxSeleccionado.supermercado" placeholder="Ingrese supermercado">
+              </mat-form-field>
+            </div>
+
+            <div class="form-group">
+              <mat-form-field>
+                <mat-label>Precio</mat-label>
+                <input matInput type="text" [(ngModel)]= "boxSeleccionado.precio" placeholder="Ingrese precio">
+              </mat-form-field>
+            </div>
+
+            <div class="form-group">
+              <mat-form-field>
+                <mat-label>Stock</mat-label>
+                <input matInput type="text" [(ngModel)]= "boxSeleccionado.stock" placeholder="Ingrese stock">
+              </mat-form-field>
+            </div>
+
+            <div class="form-group">
+              <mat-form-field>
+                <mat-label>Fecha de vencimiento</mat-label>
+                <input matInput type="text" [(ngModel)]= "boxSeleccionado.fecha" placeholder="Ingrese fecha de vencimiento">
+              </mat-form-field>
+            </div>
+
+              <div class="form-group">
+                <mat-form-field>
+                  <mat-label>Estrellas</mat-label>
+                  <input matInput type="text" [(ngModel)]= "boxSeleccionado.estrellas" placeholder="Ingrese estrellas">
+                </mat-form-field>
+              </div>
+
+        <br>
+      <button mat-button (click)="grabarBox()" class ="btn-primary">
+        Grabar
+      </button>
+      <button mat-button
+      (click) = "limpiarBox()"
+      class = "btn-danger"
+      *ngIf="boxSeleccionado.id!==0">
+        Borrar
+      </button>
+
+      <br><br><br>
+  </div> -->
